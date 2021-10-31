@@ -181,14 +181,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 .tip-heading, .amt-heading {
   color: var(--white);
-  font-size: 16px;
+  font-size: 15px;
   display: inline-block;
   font-weight: 700;
 }
 
 .tip-heading>span, .amt-heading>span {
   color: var(--dark-grayish-cyan);
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .total-tip, .total-amt {
@@ -197,11 +197,11 @@ input[type=number]::-webkit-outer-spin-button {
   right: 0;
   top: -18px;
   color: var(--strong-cyan);
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 .total-tip>span, .total-amt>span {
-  font-size: 3.3rem;
+  font-size: 3rem;
   letter-spacing: -3px;
 }
 
