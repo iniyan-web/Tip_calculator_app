@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <title>Tip calculator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <img class="logo" src="logo.svg" alt="home.">
+  <main>
+    <div class="flex-item1">
+      <form class="input-form" action="index.html" method="post">
+        <div class="sub-form1">
+          <label class="bill" for="">Bill</label><br>
+          <img class="dollar" src="icon-dollar.svg" alt="dollar symbol.">
+          <input class="bill-amt-input" type="number" name="" value="">
+        </div>
+        <label class="select-tip" for=""> Select Tip %</label>
+        <div class="tip-option">
+          <button class="btn" id="btn1" type="button" name="button" value="5">5%</button>
+          <button class="btn" id="btn2" type="button" name="button" value="10">10%</button>
+          <button class="btn" id="btn3" type="button" name="button" value="15">15%</button>
+          <button class="btn" id="btn4" type="button" name="button" value="25">25%</button>
+          <button class="btn" id="btn5" type="button" name="button" value="50">50%</button>
+          <input class="custom-tip" type="number" name="" value="" placeholder="Custom">
+        </div>
+        <div class="sub-form2">
+          <label class="num-people" for="">Number of People</label><br>
+          <img class="person" src="icon-person.svg" alt="person symbol.">
+          <input class="num-people-input" type="number" name="" value="">
+          <p class="people-error">Can't be zero</p>
+        </div>
+      </form>
+    </div>
+    <div class="flex-item2">
+      <div class="tip">
+        <h3 class="tip-heading">Tip Amount <br><span>/ person</span></h3>
+        <p class="total-tip">$<span>0.00</span></p>
+      </div>
+      <div class="amt">
+        <h3 class="amt-heading">Total <br><span>/ person</span></h3>
+        <p class="total-amt">$<span>0.00</span></p>
+      </div>
+      <button class="reset-btn" type="button" name="button">RESET</button>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
